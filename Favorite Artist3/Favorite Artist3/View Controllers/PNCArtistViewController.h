@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-
+@class PNCArtistController;
+@class PNCArtist;
 
 @interface PNCArtistViewController : UIViewController
+
+@property PNCArtistController *controller;
+@property PNCArtist *artist;
 
 @end
 

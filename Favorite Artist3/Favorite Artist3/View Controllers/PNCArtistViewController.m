@@ -6,8 +6,9 @@
 //  Copyright © 2020 Lamdba School. All rights reserved.
 //
 
+#import "PNCArtist.h"
+#import "PNCArtistController.h"
 #import "PNCArtistViewController.h"
-
 @interface PNCArtistViewController () <UISearchDisplayDelegate>
 
 @property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
@@ -16,6 +17,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *yearLabel;
 @property (weak, nonatomic) IBOutlet UITextView *biographyTextView;
 
+- (void)updateView;
+
 
 @end
 
@@ -23,7 +26,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    [self updateView];
+}
+
+- (void)updateView {
+    if(self.artist) {
+        self.nameLabel.text = self.artist.name;
+        self.yearLabel.text = [NSString stringWithFormat:@"%d", self.artist.year];
+        self.biographyTextView.text = self.artist.biography;
+    } else {
+        self.nameLabel.text = @"";
+        self.yearLabel.text = @"";
+        self.biographyTextView.text = @"";
+    }
 }
 
 - (IBAction)saveButtonTapped:(id)sender {
@@ -31,6 +47,7 @@
 
 - (void)searchBarSearchButtonClicked:(UISearchBar *)searchBar {
     
+    NSString *keyword = searchBar.text;
 }
 
 @end

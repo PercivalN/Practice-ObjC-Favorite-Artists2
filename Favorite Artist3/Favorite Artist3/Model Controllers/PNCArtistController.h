@@ -14,9 +14,13 @@
 
 @property NSMutableArray *artists;
 
+typedef void(^PNCArtistCompletion)(PNCArtist *, NSError *);
+
 - (void)addArtist:(PNCArtist *)artist;
 - (void)loadArtists;
 - (void)saveArtists;
+
+- (void)fetchArtistWithKeyword:(NSString *)keyword completitionBlock:(PNCArtistCompletion)completionBlock;
 
 @end
 
