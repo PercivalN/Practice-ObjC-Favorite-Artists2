@@ -10,4 +10,8 @@
 
 @implementation PNCArtist
 
+- (NSString *)description {
+    return [NSString stringWithFormat:@"Name: %@, Year: %d", self.name, self.year];
+}
+
 @end

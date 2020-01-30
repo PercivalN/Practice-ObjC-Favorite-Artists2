@@ -20,8 +20,9 @@
 		E33DE11C23E2CBAB00677871 /* PNCArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE11A23E2CBAB00677871 /* PNCArtist.m */; };
 		E33DE12423E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE12323E2CEF200677871 /* PNCArtist+NSJSONSerialization.m */; };
 		E33DE12523E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE12323E2CEF200677871 /* PNCArtist+NSJSONSerialization.m */; };
-		E33DE12923E2D61000677871 /* PNCArtistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE12823E2D61000677871 /* PNCArtistTest.m */; };
 		E33DE12A23E2D61000677871 /* PNCArtistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE12823E2D61000677871 /* PNCArtistTest.m */; };
+		E33DE12E23E2DB5C00677871 /* Artists.json in Resources */ = {isa = PBXBuildFile; fileRef = E33DE12D23E2DB5C00677871 /* Artists.json */; };
+		E33DE12F23E2DB5C00677871 /* Artists.json in Resources */ = {isa = PBXBuildFile; fileRef = E33DE12D23E2DB5C00677871 /* Artists.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		E33DE12623E2D58E00677871 /* PNCFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PNCFileHelper.h; sourceTree = "<group>"; };
 		E33DE12723E2D61000677871 /* PNCArtistTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCArtistTest.h; sourceTree = "<group>"; };
 		E33DE12823E2D61000677871 /* PNCArtistTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCArtistTest.m; sourceTree = "<group>"; };
+		E33DE12D23E2DB5C00677871 /* Artists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Artists.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +108,6 @@
 				DD5A7B7323DD0D4B00EBD8F6 /* Resources */,
 				E33DE12223E2CEF200677871 /* PNCArtist+NSJSONSerialization.h */,
 				E33DE12323E2CEF200677871 /* PNCArtist+NSJSONSerialization.m */,
-				E33DE12723E2D61000677871 /* PNCArtistTest.h */,
-				E33DE12823E2D61000677871 /* PNCArtistTest.m */,
 			);
 			path = "Favorite Artist3";
 			sourceTree = "<group>";
@@ -115,6 +115,8 @@
 		DD5A7B6723DD0D2A00EBD8F6 /* Favorite Artist3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				E33DE12723E2D61000677871 /* PNCArtistTest.h */,
+				E33DE12823E2D61000677871 /* PNCArtistTest.m */,
 				DD5A7B6823DD0D2A00EBD8F6 /* Favorite_Artist3Tests.m */,
 				DD5A7B6A23DD0D2A00EBD8F6 /* Info.plist */,
 				E33DE12623E2D58E00677871 /* PNCFileHelper.h */,
@@ -129,6 +131,7 @@
 				DD5A7B4C23DD0D2700EBD8F6 /* AppDelegate.h */,
 				DD5A7B4D23DD0D2700EBD8F6 /* AppDelegate.m */,
 				DD5A7B4F23DD0D2700EBD8F6 /* SceneDelegate.h */,
+				E33DE12D23E2DB5C00677871 /* Artists.json */,
 				DD5A7B5023DD0D2700EBD8F6 /* SceneDelegate.m */,
 				DD5A7B5823DD0D2A00EBD8F6 /* Assets.xcassets */,
 				DD5A7B5D23DD0D2A00EBD8F6 /* Info.plist */,
@@ -247,6 +250,7 @@
 				DD5A7B7723DD0D8F00EBD8F6 /* Default-568h@2x.png in Resources */,
 				DD5A7B5923DD0D2A00EBD8F6 /* Assets.xcassets in Resources */,
 				DD5A7B5723DD0D2700EBD8F6 /* Main.storyboard in Resources */,
+				E33DE12E23E2DB5C00677871 /* Artists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E33DE12F23E2DB5C00677871 /* Artists.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +274,6 @@
 				E33DE12423E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */,
 				E33DE11B23E2CBAB00677871 /* PNCArtist.m in Sources */,
 				DD5A7B5F23DD0D2A00EBD8F6 /* main.m in Sources */,
-				E33DE12923E2D61000677871 /* PNCArtistTest.m in Sources */,
 				DD5A7B5123DD0D2700EBD8F6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
