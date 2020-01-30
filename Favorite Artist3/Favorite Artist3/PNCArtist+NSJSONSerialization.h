@@ -6,15 +6,14 @@
 //  Copyright © 2020 Lamdba School. All rights reserved.
 //
 
-#import <AppKit/AppKit.h>
-
-
+#import <Foundation/Foundation.h>
 #import "PNCArtist.h"
 
-NS_ASSUME_NONNULL_BEGIN
 
 @interface PNCArtist (NSJSONSerialization)
 
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+- (NSDictionary *)toDictionary;
+
 @end
 
-NS_ASSUME_NONNULL_END

@@ -7,8 +7,7 @@
 //
 
 #import "PNCArtist+NSJSONSerialization.h"
-
-#import <AppKit/AppKit.h>
+#import <Foundation/Foundation.h>
 
 
 @implementation PNCArtist (NSJSONSerialization)
