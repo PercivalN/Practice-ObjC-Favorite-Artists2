@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DD5A7B4E23DD0D2700EBD8F6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7B4D23DD0D2700EBD8F6 /* AppDelegate.m */; };
 		DD5A7B5123DD0D2700EBD8F6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7B5023DD0D2700EBD8F6 /* SceneDelegate.m */; };
-		DD5A7B5423DD0D2700EBD8F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5A7B5323DD0D2700EBD8F6 /* ViewController.m */; };
 		DD5A7B5723DD0D2700EBD8F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A7B5523DD0D2700EBD8F6 /* Main.storyboard */; };
 		DD5A7B5923DD0D2A00EBD8F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5A7B5823DD0D2A00EBD8F6 /* Assets.xcassets */; };
 		DD5A7B5C23DD0D2A00EBD8F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5A7B5A23DD0D2A00EBD8F6 /* LaunchScreen.storyboard */; };
@@ -23,6 +22,10 @@
 		E33DE12A23E2D61000677871 /* PNCArtistTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE12823E2D61000677871 /* PNCArtistTest.m */; };
 		E33DE12E23E2DB5C00677871 /* Artists.json in Resources */ = {isa = PBXBuildFile; fileRef = E33DE12D23E2DB5C00677871 /* Artists.json */; };
 		E33DE12F23E2DB5C00677871 /* Artists.json in Resources */ = {isa = PBXBuildFile; fileRef = E33DE12D23E2DB5C00677871 /* Artists.json */; };
+		E33DE13223E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */; };
+		E33DE13323E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */; };
+		E33DE13623E2F17600677871 /* PNCArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13523E2F17600677871 /* PNCArtistViewController.m */; };
+		E33DE13723E2F17600677871 /* PNCArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13523E2F17600677871 /* PNCArtistViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +44,6 @@
 		DD5A7B4D23DD0D2700EBD8F6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DD5A7B4F23DD0D2700EBD8F6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		DD5A7B5023DD0D2700EBD8F6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		DD5A7B5223DD0D2700EBD8F6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD5A7B5323DD0D2700EBD8F6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD5A7B5623DD0D2700EBD8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD5A7B5823DD0D2A00EBD8F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5A7B5B23DD0D2A00EBD8F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +61,10 @@
 		E33DE12723E2D61000677871 /* PNCArtistTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCArtistTest.h; sourceTree = "<group>"; };
 		E33DE12823E2D61000677871 /* PNCArtistTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCArtistTest.m; sourceTree = "<group>"; };
 		E33DE12D23E2DB5C00677871 /* Artists.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Artists.json; sourceTree = "<group>"; };
+		E33DE13023E2F15000677871 /* PNCFavoriteArtistsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCFavoriteArtistsTableViewController.h; sourceTree = "<group>"; };
+		E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCFavoriteArtistsTableViewController.m; sourceTree = "<group>"; };
+		E33DE13423E2F17600677871 /* PNCArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCArtistViewController.h; sourceTree = "<group>"; };
+		E33DE13523E2F17600677871 /* PNCArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCArtistViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,8 +156,10 @@
 		DD5A7B7523DD0D6400EBD8F6 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DD5A7B5223DD0D2700EBD8F6 /* ViewController.h */,
-				DD5A7B5323DD0D2700EBD8F6 /* ViewController.m */,
+				E33DE13023E2F15000677871 /* PNCFavoriteArtistsTableViewController.h */,
+				E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */,
+				E33DE13423E2F17600677871 /* PNCArtistViewController.h */,
+				E33DE13523E2F17600677871 /* PNCArtistViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -269,10 +276,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5A7B5423DD0D2700EBD8F6 /* ViewController.m in Sources */,
 				DD5A7B4E23DD0D2700EBD8F6 /* AppDelegate.m in Sources */,
 				E33DE12423E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */,
+				E33DE13623E2F17600677871 /* PNCArtistViewController.m in Sources */,
 				E33DE11B23E2CBAB00677871 /* PNCArtist.m in Sources */,
+				E33DE13223E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */,
 				DD5A7B5F23DD0D2A00EBD8F6 /* main.m in Sources */,
 				DD5A7B5123DD0D2700EBD8F6 /* SceneDelegate.m in Sources */,
 			);
@@ -283,7 +291,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E33DE11C23E2CBAB00677871 /* PNCArtist.m in Sources */,
+				E33DE13323E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */,
 				DD5A7B6923DD0D2A00EBD8F6 /* Favorite_Artist3Tests.m in Sources */,
+				E33DE13723E2F17600677871 /* PNCArtistViewController.m in Sources */,
 				E33DE12A23E2D61000677871 /* PNCArtistTest.m in Sources */,
 				E33DE12523E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */,
 			);
