@@ -13,6 +13,9 @@
 @interface PNCArtist (NSJSONSerialization)
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
+- (instancetype)initWithFileDictionary:(NSDictionary *)dictionary;
+
 - (NSDictionary *)toDictionary;
 
 @end

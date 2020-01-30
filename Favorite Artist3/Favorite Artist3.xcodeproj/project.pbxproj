@@ -26,6 +26,8 @@
 		E33DE13323E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */; };
 		E33DE13623E2F17600677871 /* PNCArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13523E2F17600677871 /* PNCArtistViewController.m */; };
 		E33DE13723E2F17600677871 /* PNCArtistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13523E2F17600677871 /* PNCArtistViewController.m */; };
+		E33DE13A23E2FC2700677871 /* PNCArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13923E2FC2700677871 /* PNCArtistController.m */; };
+		E33DE13B23E2FC2700677871 /* PNCArtistController.m in Sources */ = {isa = PBXBuildFile; fileRef = E33DE13923E2FC2700677871 /* PNCArtistController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		E33DE13123E2F15000677871 /* PNCFavoriteArtistsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCFavoriteArtistsTableViewController.m; sourceTree = "<group>"; };
 		E33DE13423E2F17600677871 /* PNCArtistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCArtistViewController.h; sourceTree = "<group>"; };
 		E33DE13523E2F17600677871 /* PNCArtistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCArtistViewController.m; sourceTree = "<group>"; };
+		E33DE13823E2FC2700677871 /* PNCArtistController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PNCArtistController.h; sourceTree = "<group>"; };
+		E33DE13923E2FC2700677871 /* PNCArtistController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNCArtistController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 			children = (
 				DD5A7B7423DD0D5A00EBD8F6 /* Storyboards */,
 				E33DE11D23E2CBB400677871 /* Models */,
+				E33DE13C23E2FC3000677871 /* Model Controllers */,
 				DD5A7B7523DD0D6400EBD8F6 /* View Controllers */,
 				DD5A7B7323DD0D4B00EBD8F6 /* Resources */,
 				E33DE12223E2CEF200677871 /* PNCArtist+NSJSONSerialization.h */,
@@ -171,6 +176,15 @@
 				E33DE11A23E2CBAB00677871 /* PNCArtist.m */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E33DE13C23E2FC3000677871 /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E33DE13823E2FC2700677871 /* PNCArtistController.h */,
+				E33DE13923E2FC2700677871 /* PNCArtistController.m */,
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,6 +294,7 @@
 				E33DE12423E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */,
 				E33DE13623E2F17600677871 /* PNCArtistViewController.m in Sources */,
 				E33DE11B23E2CBAB00677871 /* PNCArtist.m in Sources */,
+				E33DE13A23E2FC2700677871 /* PNCArtistController.m in Sources */,
 				E33DE13223E2F15000677871 /* PNCFavoriteArtistsTableViewController.m in Sources */,
 				DD5A7B5F23DD0D2A00EBD8F6 /* main.m in Sources */,
 				DD5A7B5123DD0D2700EBD8F6 /* SceneDelegate.m in Sources */,
@@ -296,6 +311,7 @@
 				E33DE13723E2F17600677871 /* PNCArtistViewController.m in Sources */,
 				E33DE12A23E2D61000677871 /* PNCArtistTest.m in Sources */,
 				E33DE12523E2CEF200677871 /* PNCArtist+NSJSONSerialization.m in Sources */,
+				E33DE13B23E2FC2700677871 /* PNCArtistController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
