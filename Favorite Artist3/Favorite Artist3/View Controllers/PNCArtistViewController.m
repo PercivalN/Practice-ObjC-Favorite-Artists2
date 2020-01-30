@@ -38,7 +38,14 @@
 - (void)updateView {
     if(self.artist) {
         self.nameLabel.text = self.artist.name;
-        self.yearLabel.text = [NSString stringWithFormat:@"%d", self.artist.year];
+        //self.yearLabel.text = [NSString stringWithFormat:@"%d", self.artist.year];
+        
+        if (self.artist.year == 0) {
+            self.yearLabel.text = @"unknown formed year";
+        } else {
+             self.yearLabel.text = [NSString stringWithFormat:@"%d", self.artist.year];
+        }
+        
         self.biographyTextView.text = self.artist.biography;
         [self.searchBar setHidden:YES];
     } else {

@@ -52,7 +52,13 @@
     
    PNCArtist *artist = self.controller.artists[indexPath.row];
     cell.textLabel.text = artist.name;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", artist.year];
+    //cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", artist.year];
+    
+    if (artist.year == 0) {
+        cell.detailTextLabel.text = @"unknown formed year";
+    } else {
+        cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", artist.year];
+    }
     
     return cell;
 }
